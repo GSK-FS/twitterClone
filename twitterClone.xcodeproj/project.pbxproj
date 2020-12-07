@@ -101,9 +101,9 @@
 		F4C41A68257E51FE00D6A5FC /* twitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				F4C41A9F257E525F00D6A5FC /* ViewControllers */,
 				F4C41A69257E51FE00D6A5FC /* AppDelegate.swift */,
 				F4C41A6B257E51FE00D6A5FC /* SceneDelegate.swift */,
-				F4C41A6D257E51FE00D6A5FC /* ViewController.swift */,
 				F4C41A6F257E51FE00D6A5FC /* Main.storyboard */,
 				F4C41A75257E520100D6A5FC /* Assets.xcassets */,
 				F4C41A77257E520100D6A5FC /* LaunchScreen.storyboard */,
@@ -129,6 +129,14 @@
 				F4C41A90257E520100D6A5FC /* Info.plist */,
 			);
 			path = twitterCloneUITests;
+			sourceTree = "<group>";
+		};
+		F4C41A9F257E525F00D6A5FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4C41A6D257E51FE00D6A5FC /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
