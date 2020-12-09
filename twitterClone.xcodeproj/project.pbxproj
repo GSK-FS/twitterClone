@@ -10,7 +10,6 @@
 		F4C41A6A257E51FE00D6A5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C41A69257E51FE00D6A5FC /* AppDelegate.swift */; };
 		F4C41A6C257E51FE00D6A5FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C41A6B257E51FE00D6A5FC /* SceneDelegate.swift */; };
 		F4C41A6E257E51FE00D6A5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C41A6D257E51FE00D6A5FC /* ViewController.swift */; };
-		F4C41A71257E51FE00D6A5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C41A6F257E51FE00D6A5FC /* Main.storyboard */; };
 		F4C41A74257E51FE00D6A5FC /* twitterClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4C41A72257E51FE00D6A5FC /* twitterClone.xcdatamodeld */; };
 		F4C41A76257E520100D6A5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C41A75257E520100D6A5FC /* Assets.xcassets */; };
 		F4C41A79257E520100D6A5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C41A77257E520100D6A5FC /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 		F4C41A69257E51FE00D6A5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C41A6B257E51FE00D6A5FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4C41A6D257E51FE00D6A5FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4C41A70257E51FE00D6A5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4C41A73257E51FE00D6A5FC /* twitterClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = twitterClone.xcdatamodel; sourceTree = "<group>"; };
 		F4C41A75257E520100D6A5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C41A78257E520100D6A5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				F4C41A9F257E525F00D6A5FC /* ViewControllers */,
 				F4C41A69257E51FE00D6A5FC /* AppDelegate.swift */,
 				F4C41A6B257E51FE00D6A5FC /* SceneDelegate.swift */,
-				F4C41A6F257E51FE00D6A5FC /* Main.storyboard */,
 				F4C41A75257E520100D6A5FC /* Assets.xcassets */,
 				F4C41A77257E520100D6A5FC /* LaunchScreen.storyboard */,
 				F4C41A7A257E520100D6A5FC /* Info.plist */,
@@ -244,7 +241,6 @@
 			files = (
 				F4C41A79257E520100D6A5FC /* LaunchScreen.storyboard in Resources */,
 				F4C41A76257E520100D6A5FC /* Assets.xcassets in Resources */,
-				F4C41A71257E51FE00D6A5FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4C41A6F257E51FE00D6A5FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4C41A70257E51FE00D6A5FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4C41A77257E520100D6A5FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGC4NW33H6;
 				INFOPLIST_FILE = twitterClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGC4NW33H6;
 				INFOPLIST_FILE = twitterClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
